@@ -12,37 +12,20 @@ StudioFApp es una Landing que sirve para presentar sus productos y dar a conocer
 
 # Instalación
 Es importante seguir estos pasos para poder ejecutar la plataforma de manera local
-En mi caso trabaje con npm
+En mi caso trabajé con npm
 
-### Clonar el repositorio
-git clone https://github.com/JairoRamirezC/MovieApp.git
+### Clonar el repositorio (https://github.com/JairoRamirezC/StudioFApp/tree/main)
+git clone git@github.com:JairoRamirezC/StudioFApp.git
 
 ### Navegar al directorio del proyecto
-cd MovieApp
+cd StudioFApp
 
 ### SASS
-```npm install --save-dev node-sass``` Y/O ```npm install -D```
-
-### React-Router-Dom
-```npm i react-router-dom```
-
-### Axios
-```npm install axios```
+```npm install --save-dev node-sass``` Y ```npm install -D sass-embedded```
 
 ### Material UI
-```npm install @mui/material @emotion/react @emotion/styled @mui/icons-material```
+```npm install @mui/material @emotion/react @emotion/styled @mui/lab```
 
-### Jest (https://jestjs.io/docs/getting-started)
-```npm install --save-dev jest```
-
-```npm install --save-dev @types/jest```
-
-```npm install --save-dev @babel/preset-typescript```
-
-```npm install --save-dev babel-jest @babel/core @babel/preset-env```
-
-### React Testing Library (https://testing-library.com/docs/react-testing-library/intro)
-```npm install --save-dev @testing-library/react @testing-library/dom```
 
 # Uso
 ```npm run dev```
@@ -99,8 +82,6 @@ cd MovieApp
 # Tecnologías Utilizadas
 - React
 - Typescript
-- React Router Dom
-- Axios
 - Context
 - Sass
 - Material UI
