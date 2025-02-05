@@ -1,0 +1,44 @@
+.dropDownMenu__container{
+  height: 27px;
+
+  &__list{
+    align-items: center;
+    color: black;
+    display: flex;
+    font-family: 'BlinkMacSystemFont', "Segoe UI";
+    font-size: 1.1rem;
+    gap: 40px;
+    height: 100%;
+    justify-content: center;
+    list-style-type: none;
+
+    &--item{
+      cursor: pointer;
+
+      a{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+      }
+
+    }
+
+    .container__list--new{
+      height: 100%;
+
+      a{
+        color: $color_textLight;
+        background-color: $primary_color;
+        color: $color_textLight;
+        font-weight: 700;
+        height: 100%;
+        padding: 0 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.mobile-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid $color_textGray;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  &__search {
+    align-items: center;
+    border-bottom: 1px solid $primary_color;
+    display: flex;
+    padding: 10px;
+  }
+
+  &__search-input {
+    flex: 1;
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  &__icon {
+    color: $primary_color;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__main {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  &__menu-label {
+    color: $primary_color;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  &__logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  &__drawer {
+    background-color: $color_textGray;
+    height: 100%;
+    max-width: 425px;
+    padding: 20px;
+    width: 100%;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .MuiListItem-root {
+      border-bottom: 1px solid $color_textGray;
+      padding: 10px 15px;
+
+      &:hover {
+        background-color: #e0e0e0;
+      }
+    }
+  }
+}

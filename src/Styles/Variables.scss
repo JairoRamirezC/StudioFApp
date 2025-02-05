@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+@import url('https://tu-cdn.com/fonts/Aribau-Grotesk-Light.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  font-family: "Aribau-Grotesk-Light", sans-serif;
+  // font-family: "Bebas Neue", sans-serif;
+}
+
+// var colors
+$primary_color: black;
+// $primary_colorBackground: #213a8f;
+// $primary_colorLight: rgba(0, 94, 153, 0.3);
+$color_textDark: rgb(140 95 30);
+$color_textLight: white;
+$color_textGray: #D6D6D6;
+// $color_link: #daac38;
+// $rating_high: #00cf00;
+// $rating_medium: #fc9f62;
+// $rating_low: #ff626a;
+
+.submenu__container{
+  align-items: center;
+  color: $primary_color;
+  display: flex;
+  font-family: "BlinkMacSystemFont", "Segoe UI";
+  font-size: 1.3rem;
+  min-height: 30rem;
+  padding: 1.2rem 7.6rem
+}
+
+// import Pages
+@import "../pages/page_studiof";
+
+
+// import Components
+@import "../components/navbar/navbar";
+@import "../components/hero-section/hero_section";
+@import "../components/blusones-section/blusones_section";
+@import "../components/top-banner-slider/top_banner_slider";
+@import "../components/drop-down-menu/dropdownmenu";
+@import "../components/drop-down-menu/submenu-items/new/new_submenu";
+@import "../components/drop-down-menu/submenu-items/jeans/jeans_submenu";
+@import "../components/footer/footer";
+@import "../components/tabs-info/contact-form/contact-form";
+@import "../components/tabs-info/showcase-products/showcase-product";
+@import "../components/navbar/navbar-mobile/navbar-mobile";

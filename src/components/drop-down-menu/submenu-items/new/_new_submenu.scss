@@ -1,0 +1,110 @@
+.submenu__container__new__left{
+  // flex: 40%;
+  height: inherit;
+  padding: 20px 20px;
+  width: 41rem;
+
+  h4{
+    font-family: 'Bebas Neue';
+    font-size: 1.6rem;
+    font-weight: 400  ;
+    letter-spacing: 3px;
+    line-height: 1.9rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-decoration-color: $color_textGray;
+  }
+
+  &--links{
+    // display: flex;
+    // flex-direction: column;
+    display: grid;
+    gap: 10px 40px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: min-content;
+    list-style: none;
+    margin: 0;
+    max-height: 300px;
+    padding: 0;
+
+    a{
+      color: $primary_color;
+      text-decoration: none;
+      margin-bottom: 10px;
+
+      &:hover{
+        opacity: .8;
+        text-decoration: underline;
+        text-decoration-color: $color_textGray;
+      }
+
+      &:first-child{
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.submenu__container__new__right{
+  height: inherit;
+  padding: 20px 50px;
+  // flex: 60%;
+
+  h4{
+    font-family: 'Bebas Neue';
+    font-size: 1.6rem;
+    font-weight: 400  ;
+    letter-spacing: 3px;
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    text-decoration-color: $color_textGray;
+  }
+
+  &__items{
+    display: flex;
+    width: 100%;
+    // height: 100%;
+
+    &--item{
+
+      a{
+        align-items: center;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        height: 21.4rem;
+        justify-content: space-between;
+        margin-right: 20px;
+        text-decoration: none;
+        width: 18.7rem;
+
+        &:hover{
+          text-decoration: underline;
+          text-decoration-color: $color_textGray;
+        }
+
+        img{
+          border: 1px solid $color_textGray;
+          border-radius: 50%;
+          cursor: zoom-in;
+          height: 18.5rem;
+          margin-bottom: 10px;
+          transition: all .3s;
+          width: 18.5rem;
+  
+          &:first-child{
+            border: 1px solid $primary_color;
+          }
+
+          &:hover{
+            height: 17.5rem;
+            transition: all .3s;
+            width: 17.5rem;
+          }
+  
+        }
+      }
+    }
+  }
+}
