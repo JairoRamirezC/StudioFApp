@@ -61,7 +61,7 @@ const TabsInfo = () => {
             <ContactForm />
           </TabPanel>
           <TabPanel value="2">
-            <iframe width="760" height="515" src="https://www.youtube.com/embed/lZ8zzNxH284?si=87hX8vnOA2sxh9Mw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/lZ8zzNxH284?si=87hX8vnOA2sxh9Mw" title="YouTube video player"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </TabPanel>
           <TabPanel value="3">
             <ShowcaseProduct products={products} />
