@@ -1,5 +1,5 @@
 # StudioFApp
-StudioFApp es una plataforma web que sirve como buscador de peliculas sin videos. Con esto se podra demostrar la destresa que tiene el desarrollador Frontend trabajando en proyectos con React + TypeScript + Vite
+StudioFApp es una Landing que sirve para presentar sus productos y dar a conocer la marca. Con esto se podra demostrar la destresa que tiene el desarrollador Frontend trabajando en proyectos con React + TypeScript + Vite
 
 # Tabla de Contenidos
 - [Instalación](#instalación)
@@ -48,54 +48,13 @@ cd MovieApp
 ```npm run dev```
 
 # Capturas de Pantalla
-![image](https://github.com/JairoRamirezC/MovieApp/assets/19558437/425307a0-9239-4adf-bdd7-dc9e79e33c80)
+![image](https://github.com/user-attachments/assets/cbc126ea-28a0-4eb0-a685-08c4cef8b40f)
 
-![image](https://github.com/JairoRamirezC/MovieApp/assets/19558437/513057e0-aecc-42c0-b559-a4ce0b330a2d)
+![image](https://github.com/user-attachments/assets/7f1f3ce8-b32d-4b1b-afd8-c1c818f97a1e)
 
 # Estructura del Proyecto
 ```plaintext
-MOVIE-APP/
-├── node_modules/
-├── public/
-├── src/
-│   ├── assets/
-│   │   ├── Icons/
-│   │   └── images/
-│   ├── common/
-│   │   ├── context/
-│   │   ├── helpers/
-│   │   ├── routers/
-│   │   ├── styles/
-│   │   └── utils/
-│   ├── components/
-│   │   ├── CardDescription/
-│   │   │   ├── _cardDescription.scss
-│   │   │   └── CardDescription.tsx
-│   │   ├── ErrorComponent/
-│   │   ├── inputSearch/
-│   │   ├── Preview_cards/
-│   │   └── Skeleton/
-│   ├── pages/
-│   │   ├── Favourites/
-│   │   ├── Movies/
-│   │   └── SearchPage/
-│   │       ├── _searchPage.scss
-│   │       └── SearchPage.tsx
-│   ├── index.tsx
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── vite-env.d.ts
-├── tests/
-│   ├── .eslintrc.cjs
-│   ├── jest.config.js
-│   ├── jest.setup.js
-├── .gitignore
-├── API.env
-├── babel.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-└── README.md
+StudioFApp/ ├── node_modules/ ├── public/ ├── src/ │ ├── assets/ │ │ ├── Icons/ │ │ └── Images/ │ ├── common/ │ │ ├── context/ │ │ └── utils/ │ ├── components/ │ │ ├── blusones-section/ │ │ ├── drop-down-menu/ │ │ ├── footer/ │ │ ├── hero-section/ │ │ │ ├── _hero_section.scss │ │ │ └── HeroSection.tsx │ │ ├── info-card/ │ │ ├── navbar/ │ │ ├── tabs-info/ │ │ └── top-banner-slider/ │ ├── hooks/ │ │ └── useIsMobile.tsx │ ├── pages/ │ │ ├── _page_studiof.scss │ │ └── PageStudiof.tsx │ └── Styles/ │ └── Variables.scss ├── main.tsx ├── vite-env.d.ts ├── .gitignore ├── eslint.config.js ├── index.html ├── package.json ├── package-lock.json ├── README.md ├── tsconfig.app.json ├── tsconfig.json ├── tsconfig.node.json └── vite.config.ts └── README.md
 ```
 # Tecnologías Utilizadas
 - React
