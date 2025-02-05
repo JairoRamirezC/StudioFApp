@@ -87,4 +87,4 @@ cd StudioFApp
 - Material UI
 
 # Visitar Pagina
-[https://jairoramirezc.github.io/](https://jairoramirezc.github.io/MovieApp/)
+[https://jairoramirezc.github.io/](https://jairoramirezc.github.io/StudioFApp/)
