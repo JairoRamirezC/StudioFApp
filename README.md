@@ -54,7 +54,47 @@ cd MovieApp
 
 # Estructura del Proyecto
 ```plaintext
-StudioFApp/ ├── node_modules/ ├── public/ ├── src/ │ ├── assets/ │ │ ├── Icons/ │ │ └── Images/ │ ├── common/ │ │ ├── context/ │ │ └── utils/ │ ├── components/ │ │ ├── blusones-section/ │ │ ├── drop-down-menu/ │ │ ├── footer/ │ │ ├── hero-section/ │ │ │ ├── _hero_section.scss │ │ │ └── HeroSection.tsx │ │ ├── info-card/ │ │ ├── navbar/ │ │ ├── tabs-info/ │ │ └── top-banner-slider/ │ ├── hooks/ │ │ └── useIsMobile.tsx │ ├── pages/ │ │ ├── _page_studiof.scss │ │ └── PageStudiof.tsx │ └── Styles/ │ └── Variables.scss ├── main.tsx ├── vite-env.d.ts ├── .gitignore ├── eslint.config.js ├── index.html ├── package.json ├── package-lock.json ├── README.md ├── tsconfig.app.json ├── tsconfig.json ├── tsconfig.node.json └── vite.config.ts └── README.md
+# StudioFApp/
+│── node_modules/
+│── public/
+│── src/
+│   │── assets/
+│   │   │── Icons/
+│   │   │── Images/
+│   │── common/
+│   │   │── context/
+│   │   │── utils/
+│   │── components/
+│   │   │── blusones-section/
+│   │   │── drop-down-menu/
+│   │   │── footer/
+│   │   │── hero-section/
+│   │   │   │── _hero_section.scss
+│   │   │   │── HeroSection.tsx
+│   │   │── info-card/
+│   │   │── navbar/
+│   │   │── tabs-info/
+│   │   │── top-banner-slider/
+│   │── hooks/
+│   │   │── useIsMobile.tsx
+│   │── pages/
+│   │   │── _page_studiof.scss
+│   │   │── PageStudiof.tsx
+│   │── Styles/
+│   │   │── Variables.scss
+│── main.tsx
+│── vite-env.d.ts
+│── .gitignore
+│── eslint.config.js
+│── index.html
+│── package.json
+│── package-lock.json
+│── README.md
+│── tsconfig.app.json
+│── tsconfig.json
+│── tsconfig.node.json
+│── vite.config.ts
+└── README.md
 ```
 # Tecnologías Utilizadas
 - React
