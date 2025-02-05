@@ -72,7 +72,7 @@ const NavBarMobile = ({ cart }:NavBarMobileProps):JSX.Element => {
           </IconButton>
           <List>
             {['MUJER', 'HOMBRE', 'NUEVO', 'JEANS', 'ROPA', 'ZAPATOS', 'ACCESORIOS', 'BÁSICOS', 'COLECCIONES', 'FIT FINDER', 'TEN CARD'].map((text, index) => (
-              <ListItem button key={index}>
+              <ListItem key={index}>
                 <ListItemText primary={text} />
               </ListItem>
             ))}

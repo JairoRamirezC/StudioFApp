@@ -1,12 +1,6 @@
 import { useState } from "react"
 import { SubmenusProps } from "../../../../common/utils/types"
 
-interface JeansProps {
-  srcImage: string;
-  href: string;
-  nameItem: string;
-  titleItem: string;
-}
 
 const Jeans = ({handleMouseLeave}:SubmenusProps) => {
 
