@@ -1,5 +1,5 @@
 # StudioFApp
-Movie App es una plataforma web que sirve como buscador de peliculas sin videos. Con esto se podra demostrar la destresa que tiene el desarrollador Frontend trabajando en proyectos con React + TypeScript + Vite
+StudioFApp es una plataforma web que sirve como buscador de peliculas sin videos. Con esto se podra demostrar la destresa que tiene el desarrollador Frontend trabajando en proyectos con React + TypeScript + Vite
 
 # Tabla de Contenidos
 - [Instalación](#instalación)
