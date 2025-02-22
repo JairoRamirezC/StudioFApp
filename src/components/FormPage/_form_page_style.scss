@@ -1,0 +1,176 @@
+.formulario {
+  // border: 1px solid red;
+  margin-top: 30px;
+  margin: 30px 80px;
+
+  &__steps {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+
+    & div{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .formulario__step {
+      align-items: center;
+      border: 1px solid black;
+      background-color: white;
+      display: flex;
+      height: 20px;
+      justify-content: center;
+      margin: 0 10px;
+      transition: background-color 0.3s;
+      width: 20px;
+
+      &.activo {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+
+  & hr{
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 97%;
+    position: absolute;
+    top: 11px;
+    left: 25px;
+  }
+
+  &__content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    min-height: 527px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+  }
+
+  &__file-input{
+    border: 1px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  select,
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  &__datos-adicionales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    label.error {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  button {
+    // padding: 10px 20px;
+    // border: none;
+    // border-radius: 4px;
+    // font-size: 16px;
+    // cursor: pointer;
+    // margin: 10px;
+    // transition: background-color 0.3s;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+
+    &.anterior {
+      background-color: #28a745;
+      color: white;
+
+      &:hover {
+        background-color: #218838;
+      }
+    }
+
+    &.enviar {
+      background-color: #007bff;
+      color: white;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    &__content {
+      padding: 15px;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    &__datos-adicionales {
+      grid-template-columns: 1fr;
+    }
+  }
+}
